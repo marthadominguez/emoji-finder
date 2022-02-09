@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const EmojiItem = () => {
-  return <div className="emoji-item">
-    <span></span>
-    <p>asd</p>
-    <p>asdf</p>
-  </div>;
+const EmojiItem = ({ emoji }) => {
+  return (
+    <li className="emoji-item">
+      <span>{emoji.symbol}</span>
+      <h2>{emoji.title}</h2>
+      <p>Clickea para copiar</p>
+    </li>
+  );
 };
 
 export default EmojiItem;
