@@ -7,11 +7,10 @@
     width: 100vw;
     padding-bottom: 1rem;
     font-size: 1.6rem;
-    color: rgb(20, 20, 20);
+    color: var(--blanco);
 }
 
 .footer p {
-    background-color: rgba(0, 255, 0, 0);
     margin: 0 .5rem;
 }
 
@@ -19,11 +18,10 @@
     display: flex;
     align-items: center;
     font-size: 2rem;
-    background-color: rgba(0, 255, 0, 0);
     margin-top: 0.3rem;
 }
 
 .iconify {
-    color: rgb(20, 20, 20);
+    color: var(--blanco);
     margin: 0 .5rem;
 }

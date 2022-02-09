@@ -7,10 +7,10 @@ import Footer from "../components/Footer";
 
 const Index = () => {
   return (
-    <div className="">
+    <div className="layout">
       <div className="main">
-        <h1>Emoji Finder</h1>
-        <p>Find your favorite emoji</p>
+        <h1>Emoji Finder<span>🔎</span></h1>
+        <p>Encuentra tu emoji favorito en segundos</p>
         <SearchBar />
         <EmojiResult />
       </div>

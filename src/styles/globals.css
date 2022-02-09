@@ -2,8 +2,15 @@
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
   }
 
   html {
     font-size: 62.5%;
+  }
+
+  :root {
+    --negro: rgb(0, 13, 37);
+    --blanco: rgb(240, 240, 240);
+    --fondo-main: rgb(11, 20, 46);
   }
