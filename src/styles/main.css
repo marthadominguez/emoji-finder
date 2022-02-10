@@ -17,10 +17,12 @@
     padding: 5rem 0;
     background-color: var(--fondo-main);
     box-shadow: rgba(0, 5, 10, 0.2) 0px 4px 14px;
+    
 }
 
 .main-info, .search-bar {
-    animation: 2s main-animation 0.5s ease-in-out;
+    opacity: 0;
+    animation: 2s main-animation 0.5s ease-in-out forwards;
 }
 
 @keyframes main-animation {
@@ -29,6 +31,7 @@
     }
 
     100% {
+        opacity: 1;
         transform: translateY(0px);
     }
 }
