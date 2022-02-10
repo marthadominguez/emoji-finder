@@ -28,7 +28,6 @@ const Index = () => {
     if (busqueda.length !== 0) {
       setEmojisFiltrados(filterEmoji(busqueda, 10));
     }
-
   }, [busqueda]);
 
   const handleSearch = (e) => {
@@ -38,14 +37,18 @@ const Index = () => {
   return (
     <div className="layout">
       <div className="main">
-        <h1>
-          Emoji Finder<span>🔎</span>
-        </h1>
-        <p>Encuentra tu emoji favorito</p>
+        <div className="main-info">
+          <h1>
+            Emoji Finder<span>🔎</span>
+          </h1>
+          <p>Encuentra el emoji que estás buscando</p>
+        </div>
         <SearchBar handleSearch={handleSearch} busqueda={busqueda} />
-        {(emojisFiltrados.length === 0 && busqueda.length !== 0) ? (
+        {emojisFiltrados.length === 0 && busqueda.length !== 0 ? (
           <>
-            <div className="no-results">No se encontraron resultados para "{busqueda}"</div>
+            <div className="no-results">
+              No se encontraron resultados para "{busqueda}"
+            </div>
           </>
         ) : (
           <>
