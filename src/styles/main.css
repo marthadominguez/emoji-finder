@@ -9,7 +9,7 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     border-radius: 0rem;
     width: 50vw;
@@ -51,7 +51,7 @@
 }
 
 ::placeholder {
-    color: var(--blanco);
+    color: rgb(67, 80, 139);
     opacity: 1;
 }
 
@@ -115,6 +115,10 @@
     display: block;
     color: rgb(255, 255, 255);
     /* color: rgb(7, 134, 253); */
+}
+
+.emoji-item:active {
+    box-shadow: rgba(0, 5, 10, 0.4) 0px 8px 10px;
 }
 
 .no-results {

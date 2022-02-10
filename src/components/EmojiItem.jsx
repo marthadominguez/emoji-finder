@@ -2,10 +2,10 @@ import React from "react";
 
 const EmojiItem = ({ emoji }) => {
   return (
-    <li className="emoji-item">
+    <li className="emoji-item copy-to-clipboard" data-clipboard-text={emoji.symbol}>
       <span>{emoji.symbol}</span>
       <h2>{emoji.title}</h2>
-      <p>Clickea para copiar</p>
+      <p>Click para copiar</p>
     </li>
   );
 };
