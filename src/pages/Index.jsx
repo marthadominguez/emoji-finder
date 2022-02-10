@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Clipboard from "clipboard";
 import "../styles/main.css";
 import "../styles/footer.css";
 import SearchBar from "../components/SearchBar";
 import Footer from "../components/Footer";
 import EmojiItem from "../components/EmojiItem";
 import emojiList from "../emojiList.json";
-
-const clipboard = new Clipboard(".copy-to-clipboard");
 
 const Index = () => {
   const [busqueda, setBusqueda] = useState("");

@@ -1,4 +1,7 @@
 import React from "react";
+import Clipboard from "clipboard";
+
+new Clipboard(".copy-to-clipboard");
 
 const EmojiItem = ({ emoji }) => {
   return (
