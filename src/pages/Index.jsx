@@ -36,7 +36,7 @@ const Index = () => {
 
   return (
     <div className="layout">
-      <div className="main">
+      <main className="main">
         <div className="main-info">
           <h1>
             Emoji Finder<span>🔎</span>
@@ -59,8 +59,8 @@ const Index = () => {
             </ul>
           </>
         )}
-      </div>
-      <Footer />
+        <Footer />
+      </main>
     </div>
   );
 };
