@@ -44,21 +44,21 @@ const Index = () => {
           <p>Encuentra el emoji que estás buscando</p>
         </div>
         <SearchBar handleSearch={handleSearch} busqueda={busqueda} />
-        {emojisFiltrados.length === 0 && busqueda.length !== 0 ? (
-          <>
-            <div className="no-results">
-              No se encontraron resultados para "{busqueda}"
-            </div>
-          </>
-        ) : (
-          <>
-            <ul className="emoji-items-container">
-              {emojisFiltrados.map((emoji, index) => {
-                return <EmojiItem key={index} emoji={emoji} />;
-              })}
-            </ul>
-          </>
-        )}
+          {emojisFiltrados.length === 0 && busqueda.length !== 0 ? (
+            <>
+              <div className="no-results">
+                No se encontraron resultados para "{busqueda}"
+              </div>
+            </>
+          ) : (
+            <>
+              <ul className="emoji-items-container">
+                {emojisFiltrados.map((emoji, index) => {
+                  return <EmojiItem key={index} emoji={emoji} />;
+                })}
+              </ul>
+            </>
+          )}
         <Footer />
       </main>
     </div>
