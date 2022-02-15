@@ -142,6 +142,7 @@
 }
 
 .no-results {
+    height: 100%;
     color: var(--blanco);
     font-size: 1.7rem;
 }
