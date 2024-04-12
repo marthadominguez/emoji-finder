@@ -41,13 +41,13 @@ const Index = () => {
           <h1>
             Emoji Finder<span>🔎</span>
           </h1>
-          <p>Encuentra el emoji que estás buscando</p>
+          <p>Find the emoji you are looking for</p>
         </div>
         <SearchBar handleSearch={handleSearch} busqueda={busqueda} />
           {emojisFiltrados.length === 0 && busqueda.length !== 0 ? (
             <>
               <div className="no-results">
-                No se encontraron resultados para "{busqueda}"
+                No results found for "{busqueda}"
               </div>
             </>
           ) : (

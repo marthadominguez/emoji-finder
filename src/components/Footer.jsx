@@ -8,7 +8,7 @@ const Footer = () => {
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://www.linkedin.com/in/martha-liliana-dom%C3%ADnguez-09b722136"
+        href="https://www.linkedin.com/in/marthaldominguez/"
       >
         <span className="iconify" data-icon="akar-icons:linkedin-fill"></span>
       </a>

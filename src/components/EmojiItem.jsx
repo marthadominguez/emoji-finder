@@ -8,7 +8,7 @@ const EmojiItem = ({ emoji }) => {
     <li className="emoji-item copy-to-clipboard" data-clipboard-text={emoji.symbol}>
       <span>{emoji.symbol}</span>
       <h2>{emoji.title}</h2>
-      <p>Click para copiar</p>
+      <p>Click to copy</p>
     </li>
   );
 };

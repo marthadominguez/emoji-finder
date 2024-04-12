@@ -7,7 +7,7 @@ const SearchBar = ({ handleSearch, busqueda }) => {
         value={busqueda}
         onChange={handleSearch}
         type="search"
-        placeholder="Ejemplo: cat, star, heart ..."
+        placeholder="E.g. cat, star, heart ..."
       ></input>
     </div>
   );

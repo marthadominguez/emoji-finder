@@ -26,6 +26,8 @@
     animation: 2s main-animation 0.5s ease-in-out forwards;
 }
 
+.main-info p {padding-bottom: 10px;}
+
 @keyframes main-animation {
     0% {
         transform: translateY(-200px);
@@ -39,10 +41,15 @@
 
 .main h1 {
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 500;
     /* color: var(--blanco); */
     color: rgb(7, 134, 253);
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.main h1 span {
+    margin-left: 8px;
 }
 
 .main p,
